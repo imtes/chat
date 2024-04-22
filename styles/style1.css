@@ -1,0 +1,20 @@
+@import url("Oswald-VariableFont_wght.ttf");
+*{
+    font-family: "Oswald", sans-serif;
+    margin:0;
+    padding:0;
+    font-size: 1.3em;
+}
+@media (hover:hover){
+    #but:hover{
+        background-color: coral;
+    }
+}
+@media (hover:none){
+    #but:active{
+        background-color: coral;
+    }
+}
+div{
+    color:red;
+}
